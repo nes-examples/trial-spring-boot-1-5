@@ -1,15 +1,9 @@
 buildscript {
 	repositories {
-		maven {
-			url = uri(project.property('herodevs_nes_registry_url'))
-			credentials {
-				username = project.property('herodevs_nes_registry_user')
-			}
-		}
 		mavenCentral()
 	}
 	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.22-spring-boot-1.5.24-trial")
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.22.RELEASE")
 	}
 }
 
@@ -26,12 +20,6 @@ group = 'com.herodevs.nes.trial.spring'
 version = '0.0.1-SNAPSHOT'
 
 repositories {
-	maven {
-		url = uri(project.property('herodevs_nes_registry_url'))
-		credentials {
-			username = project.property('herodevs_nes_registry_user')
-		}
-	}
 	mavenCentral()
 }
 
