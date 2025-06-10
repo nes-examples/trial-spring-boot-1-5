@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.22-spring-boot-1.5.24-trial</version>
+		<version>1.5.22.RELEASE</version>
 		<relativePath/>
 	</parent>
 	<groupId>com.herodevs.nes.trial.spring</groupId>
@@ -50,19 +50,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
-			<id>herodevs-nes-registry</id>
-			<url>https://registry.nes.herodevs.com/maven</url>
-		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>herodevs-nes-registry</id>
-			<url>https://registry.nes.herodevs.com/maven</url>
-		</pluginRepository>
-	</pluginRepositories>
 
 </project>
